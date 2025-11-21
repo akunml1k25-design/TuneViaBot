@@ -7,20 +7,20 @@ from pyrogram import filters
 load_dotenv()
 
 # ── Core bot config ────────────────────────────────────────────────────────────
-API_ID = int(getenv("API_ID", 27798659))
-API_HASH = getenv("API_HASH", "26100c77cee02e5e34b2bbee58440f86")
+API_ID = int(getenv("API_ID", 21448110))
+API_HASH = getenv("API_HASH", "c2a04103f18bc9b30669b26a6fc88449")
 BOT_TOKEN = getenv("BOT_TOKEN")
 
-OWNER_ID = int(getenv("OWNER_ID", 7044783841))
-OWNER_USERNAME = getenv("OWNER_USERNAME", "CertifiedCoder")
-BOT_USERNAME = getenv("BOT_USERNAME", "TuneviaBot")
+OWNER_ID = int(getenv("OWNER_ID", 8377487392))
+OWNER_USERNAME = getenv("OWNER_USERNAME", "kinkzp")
+BOT_USERNAME = getenv("BOT_USERNAME", "biduan1bot")
 BOT_NAME = getenv("BOT_NAME", "˹ᴛᴜɴᴇ ᴠɪᴀ ʙᴏᴛ˼")
-ASSUSERNAME = getenv("ASSUSERNAME", "tuneviaassis")
+ASSUSERNAME = getenv("ASSUSERNAME", "zpcodex")
 EVALOP = list(map(int, getenv("EVALOP", "6797202080").split()))
 
 # ───── Mongo & Logging ───── #
 MONGO_DB_URI = getenv("MONGO_DB_URI")
-LOGGER_ID = int(getenv("LOGGER_ID", -1002014167331))
+LOGGER_ID = int(getenv("LOGGER_ID", -1003055932888))
 
 # ── Limits (durations in min/sec; sizes in bytes) ──────────────────────────────
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 300))
@@ -46,8 +46,8 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv("GIT_TOKEN")
 
 # ───── Support & Community ───── #
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/CertifiedNetwork")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/CertifiedDiscussion")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/haipalkon")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/haipalkon")
 
 # ───── Assistant Auto Leave ───── #
 AUTO_LEAVING_ASSISTANT = False
@@ -103,7 +103,7 @@ DURATION_LIMIT = time_to_seconds(f"{DURATION_LIMIT_MIN}:00")
 
 
 # ───── Bot Introduction Messages ───── #
-AYU = ["💞", "🦋", "🔍", "🧪", "⚡️", "🔥", "🎩", "🌈", "🍷", "🥂", "🥃", "🕊️", "🪄", "💌", "🧨"]
+AYU = ["Sabar Ya Plerr🔍"]
 
 
 # ───── Runtime Structures ───── #
